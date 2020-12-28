@@ -15,7 +15,11 @@ get_middle("of") # => "of"
 Input     |     Output
 
 "a"       |       "a"
+
 "to"      |       "to"
+
 "two"     |       "w"
+
 "four"    |       "ou"
+
 "abhxbhjasbhjbxjavcjhdcbkkaucbn"  |   "ja"
