@@ -21,4 +21,8 @@ describe '#get_middle' do
     expect(get_middle("abhxbhjasbhjbxjavcjhdcbkkaucbn")).to eq "ja"
   end
 
+  it 'raises an error if no input is added' do
+    expect{get_middle("")}.to raise_error "You must input a string"
+  end
+
 end

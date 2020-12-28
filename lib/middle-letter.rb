@@ -1,4 +1,5 @@
 def get_middle(word)
+  raise "You must input a string" if word == ""
   new_word = word.split("")
   length = new_word.length
   if length.odd?

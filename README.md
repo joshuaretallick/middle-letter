@@ -23,3 +23,5 @@ Input     |     Output
 "four"    |       "ou"
 
 "abhxbhjasbhjbxjavcjhdcbkkaucbn"  |   "ja"
+
+""        |     raise error : "You must input a string"
