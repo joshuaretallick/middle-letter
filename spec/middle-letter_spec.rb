@@ -13,4 +13,12 @@ describe '#get_middle' do
     expect(get_middle("two")).to eq "w"
   end
 
+  it 'returns the letters "ou"' do
+    expect(get_middle("four")).to eq "ou"
+  end
+
+  it 'returns the letters "ja"' do
+    expect(get_middle("abhxbhjasbhjbxjavcjhdcbkkaucbn")).to eq "ja"
+  end
+
 end
