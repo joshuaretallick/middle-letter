@@ -1,5 +1,9 @@
 def get_middle(word)
   new_word = word.split("")
   length = new_word.length
-  return new_word[(length / 2)]
+  if length.odd?
+    return new_word[(length / 2)]
+  else
+    return new_word[(length / 2) - 1] + new_word[(length / 2)]
+  end
 end
